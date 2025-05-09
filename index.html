@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ödevler Listesi</title>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f7; /* Hafif pembe arka plan */
+      color: #4a004e; /* Mor tonlu metin rengi */
+      margin: 0;
+      padding: 0;
+      position: relative;
+      overflow-x: hidden; /* Taşmaları önler */
+    }
+  
+    .header {
+      background-color: #800080; /* Mor arka plan */
+      color: #fff; /* Beyaz yazı rengi */
+      text-align: center;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff0fa; /* Daha açık bir pembe arka plan */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+   
+    h1 {
+      text-align: center;
+      color: #800080; /* Mor renk */
+    }
+    /* Navigasyon */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 10px 0;
+    }
+   
+    nav ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #ff1493; /* Parlak pembe */
+      padding: 10px 15px;
+      border: 2px solid transparent;
+      border-radius: 5px;
+      display: block;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+  
+    nav ul li a:hover {
+      background-color: #800080; /* Mor arka plan */
+      color: #fff; /* Beyaz metin */
+      transform: scale(1.1); /* Büyüme efekti */
+      border-color: #ff1493; /* Pembe sınır */
+    }
+    
+    .figure {
+      position: fixed;
+      top: 0;
+      width: 50px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 24px;
+    }
+    .figure.left {
+      left: 0;
+    }
+    .figure.right {
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Üst bilgilendirme -->
+  <div class="header">
+    Ödevlerime buradan bakabilirsiniz
+  </div>
+
+ 
+  <div class="figure left">
+    😊<br>😊<br>😊<br>😊<br>😊<br>😊
+  </div>
+  <div class="figure right">
+    😊<br>😊<br>😊<br>😊<br>😊<br>😊
+  </div>
+
+
+  <div class="container">
+    <h1>Ödevler Listesi</h1>
+    <nav>
+      <ul>
+        <li><a href="etkinlik.html">Etkinlik</a></li>
+        <li><a href="çark.html">Çark</a></li>
+
+        
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>
