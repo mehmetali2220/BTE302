@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fizik Labirent Oyunu</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    canvas {
+      border: 2px solid #333;
+      background-color: white;
+    }
+    .controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 5px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <p>Kareyi sürükleyip bırakarak hedefe (yeşil) ulaştırın!</p>
+    <p>Kuvvet: <span id="forceValue">0</span> N</p>
+  </div>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
